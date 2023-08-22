@@ -2,7 +2,7 @@ const path = require("path");
 
 const mainControllers = {
     mostrarHome: (req, res)=>{
-        res.sendFile(path.join(__dirname, "../views/index.html"))
+        res.sendFile(path.join(__dirname, "../views/home.html"))
     },
     mostrarRegister: (req, res)=>{
         res.sendFile(path.join(__dirname, "../views/register.html"))
